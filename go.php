@@ -8,7 +8,7 @@
 set_time_limit(0);
 
 // Set vars
-$n 		= 0;
+$n 	= 0;
 $video 	= 'YOUR VIDEO ID';
 $apikey	= 'YOUR MASHAPE.COM API KEY';
 
@@ -32,11 +32,11 @@ for(;;) {
 
 	for($i=0;$i<count($proxies['data']);$i++) {
 		// Get the views
-		$url = "http://www.youtube.com/watch?v=".$video;
-		$proxy = $proxies['data'][$i]['PROXY_IP'];
-		$port = $proxies['data'][$i]['PROXY_PORT'];
-		$country = $proxies['data'][$i]['PROXY_COUNTRY'];
-		$type = $proxies['data'][$i]['PROXY_TYPE'];
+		$url 		= "http://www.youtube.com/watch?v=".$video;
+		$proxy 		= $proxies['data'][$i]['PROXY_IP'];
+		$port 		= $proxies['data'][$i]['PROXY_PORT'];
+		$country 	= $proxies['data'][$i]['PROXY_COUNTRY'];
+		$type 		= $proxies['data'][$i]['PROXY_TYPE'];
 		$useragent = array(
 			"Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)",
 			"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36",
