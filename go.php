@@ -10,12 +10,12 @@ set_time_limit(0);
 // Set vars
 $n = 0;
 $video = 'YOUR VIDEO ID';
-$apikey	= 'YOUR MASHAPE.COM API KEY';
+$apikey = 'YOUR MASHAPE.COM API KEY';
 
 // Loop forever until you decide to stop
 for(;;) {
 	// Get the list of proxies
-	$ch 	= curl_init("https://proxylist.p.mashape.com/get");
+	$ch = curl_init("https://proxylist.p.mashape.com/get");
 	$header = array(
 		'Accept: application/json',
 		'X-Mashape-Authorization: '.$apikey
