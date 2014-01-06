@@ -1,12 +1,8 @@
 ytbot
 =====
 
-A 10 Minute YouTube Views Bot.
+A YouTube views bot. Quickly put together to test the idea - it does slowly add views but these may get flagged.
 
-As the description suggests, I quickly put this together to test the idea of making my own views bot for YouTube. 
-
-It does add views, however those views also seem to get flagged - though haven't yet been removed - so it may need refinement.
-
-Use at your own risk.
+Use at your own risk. Feel free to improve it.
 
 Licence: http://www.wtfpl.net/
