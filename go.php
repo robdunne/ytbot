@@ -9,7 +9,7 @@ set_time_limit(0);
 
 // Set vars
 $n = 0;
-$video = 'YOUR VIDEO ID';
+$video = '8Ph6xYggAlc';
 $apikey = 'YOUR MASHAPE.COM API KEY';
 
 // Loop forever until you decide to stop
